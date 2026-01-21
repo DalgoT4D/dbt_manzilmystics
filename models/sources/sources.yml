@@ -1,0 +1,14 @@
+version: 2
+sources:
+- name: staging
+  schema: staging
+  tables:
+  - name: Attendance_2025_26_A12
+    identifier: Attendance_2025_26_A12
+    description: ''
+  - name: Attendance_2025_26_A34
+    identifier: Attendance_2025_26_A34
+    description: ''
+  - name: Attendance_2025_26_A56
+    identifier: Attendance_2025_26_A56
+    description: ''

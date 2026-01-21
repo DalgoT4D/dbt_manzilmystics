@@ -3,6 +3,15 @@ sources:
 - name: staging
   schema: staging
   tables:
+  - name: Assessment_2025_26_A12
+    identifier: Assessment_2025_26_A12
+    description: ''
+  - name: Assessment_2025_26_A34
+    identifier: Assessment_2025_26_A34
+    description: ''
+  - name: Assessment_2025_26_A56
+    identifier: Assessment_2025_26_A56
+    description: ''
   - name: Attendance_2025_26_A12
     identifier: Attendance_2025_26_A12
     description: ''

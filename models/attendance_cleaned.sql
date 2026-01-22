@@ -7,7 +7,7 @@ SELECT
 CAST("Age" AS integer) AS "Age",
 CAST("Sno_" AS character varying) AS "Sno_",
 CAST("Year" AS character varying) AS "Year",
-CAST("Class" AS character varying) AS "Class",
+CAST("Class" AS integer) AS "Class",
 CAST("Month" AS character varying) AS "Month",
 CAST("Pair_ID" AS character varying) AS "Pair_ID",
 CAST("Center_ID" AS character varying) AS "Center_ID",

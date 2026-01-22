@@ -3,6 +3,24 @@ sources:
 - name: staging
   schema: staging
   tables:
+  - name: Assessment_2025_26_10
+    identifier: Assessment_2025_26_10
+    description: ''
+  - name: Assessment_2025_26_11
+    identifier: Assessment_2025_26_11
+    description: ''
+  - name: Assessment_2025_26_12
+    identifier: Assessment_2025_26_12
+    description: ''
+  - name: Assessment_2025_26_7
+    identifier: Assessment_2025_26_7
+    description: ''
+  - name: Assessment_2025_26_8
+    identifier: Assessment_2025_26_8
+    description: ''
+  - name: Assessment_2025_26_9
+    identifier: Assessment_2025_26_9
+    description: ''
   - name: Assessment_2025_26_A12
     identifier: Assessment_2025_26_A12
     description: ''
@@ -11,6 +29,24 @@ sources:
     description: ''
   - name: Assessment_2025_26_A56
     identifier: Assessment_2025_26_A56
+    description: ''
+  - name: Attendance_2025_26_10
+    identifier: Attendance_2025_26_10
+    description: ''
+  - name: Attendance_2025_26_11
+    identifier: Attendance_2025_26_11
+    description: ''
+  - name: Attendance_2025_26_12
+    identifier: Attendance_2025_26_12
+    description: ''
+  - name: Attendance_2025_26_7
+    identifier: Attendance_2025_26_7
+    description: ''
+  - name: Attendance_2025_26_8
+    identifier: Attendance_2025_26_8
+    description: ''
+  - name: Attendance_2025_26_9
+    identifier: Attendance_2025_26_9
     description: ''
   - name: Attendance_2025_26_A12
     identifier: Attendance_2025_26_A12

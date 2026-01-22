@@ -33,6 +33,7 @@ attendance as (
     from {{ ref('attendance_cleaned') }}
 )
 
+
 select
     a."Student_ID" as student_id,
     a."Pair_ID" as pair_id,
@@ -41,8 +42,8 @@ select
     a."Age" as age,
     a."Class" as class,
     att."Pre_Assessment",
-    att."Sessions_Absent" as sessions_present,
-    att."Sessions_Present" as sessions_absent,
+    att."Sessions_Absent" as sessions_absent,
+    att."Sessions_Present" as sessions_present,
     att.total_sessions,
     a."Total_Marks" as total_marks,
     a."Emotion__1_5_" as emotionscore,

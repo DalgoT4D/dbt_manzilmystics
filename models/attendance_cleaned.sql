@@ -21,7 +21,7 @@ CAST("_airbyte_meta" AS jsonb) AS "_airbyte_meta"
 FROM {{ref('attendance_all')}}
 ) , cte1 as (
 SELECT "Age", "Class", "Pair_ID", "Center_ID", 
-"Student_ID", "Pre_Assessment", 
+"Student_ID", "Pre_Assessment", "Sessions_Present", "Sessions_Absent",
   ("Sessions_Absent" + "Sessions_Present") AS total_sessions,
 CASE
   WHEN INITCAP(TRIM("Month")) IN (    'January','February','March','April','May','June','July','August','September','October','November','December'

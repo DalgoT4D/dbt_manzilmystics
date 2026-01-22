@@ -1,7 +1,7 @@
 --DBT AUTOMATION has generated this model, please DO NOT EDIT 
 --Please make sure you dont change the model name 
 
-{{ config(materialized='table', schema='production') }}
+{{ config(materialized='table', schema='intermediate') }}
 WITH cte2 as (
 SELECT
 CAST("Age" AS integer) AS "Age",
